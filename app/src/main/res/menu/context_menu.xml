@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Previous"
+        android:icon="@android:drawable/ic_media_previous"
+        app:showAsAction="always"
+        android:showAsAction="always"
+        android:id="@+id/previous"
+        tools:ignore="AppCompatResource" />
+
+    <item android:title="Pause"
+        android:icon="@android:drawable/ic_media_pause"
+        app:showAsAction="always"
+        android:showAsAction="always"
+        android:id="@+id/pause"
+        tools:ignore="AppCompatResource" />
+
+    <item android:title="Play"
+        android:icon="@android:drawable/ic_media_play"
+        app:showAsAction="always"
+        android:showAsAction="always"
+        android:id="@+id/play"
+        tools:ignore="AppCompatResource" />
+
+    <item android:title="Next"
+        android:icon="@android:drawable/ic_media_next"
+        app:showAsAction="always"
+        android:showAsAction="always"
+        android:id="@+id/next"
+        tools:ignore="AppCompatResource" />
+
+    <item android:title="Download"
+        android:icon="@android:drawable/stat_sys_download"
+        app:showAsAction="ifRoom"
+        android:id="@+id/download" />
+
+    <item android:title="Help"
+        android:icon="@android:drawable/ic_menu_help"
+        app:showAsAction="ifRoom"
+        android:id="@+id/help" />
+
+    <item android:title="Preferences"
+        android:icon="@android:drawable/ic_menu_preferences"
+        app:showAsAction="ifRoom"
+        android:id="@+id/preferences" />
+
+</menu>
